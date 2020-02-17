@@ -1,0 +1,43 @@
+*{ margin: 0; padding: 0;}
+body{ font-size:12px; background:#e4e2e3;}
+a{ text-decoration: none;}
+li{ list-style: none;}
+img{ border: 0;}
+.clear{ clear: both;}
+.menuSon a:hover{ text-decoration: underline;}
+.mainRight{ width: 100%; height:auto; float: right;}
+.mainRightCon{ width: 98%; height: auto; margin: 0 auto; border:1px solid #ccc; margin-top: 10px; background:#eef2fb;}
+.introduce{ width: 100%; height: 34px; line-height: 34px; font-weight: bold; color:cadetblue; background:url(../images/thebg.png) repeat-x;}
+.introduce span{ padding-left: 10px;}
+.theBody{ width: 98%; margin: 0 auto; line-height: 25px; color: #666; padding-bottom: 10px;}
+.introduce a{ color: #666;}
+#themessage{ width: 350px; height: 150px; border: 1px solid #ccc; margin: 40px auto;}
+#showtitle{ text-align: center;}
+.second{ width: 100%; text-align: center;}
+#secondUp{ margin-top: 20px;}
+.second a{ text-decoration: underline; font-weight:bold; color:appworkspace;}
+table{ font-size: 12px; line-height: 30px;}
+.userlist{ width: 100%; line-height: 25px; text-align: center; margin-top: 10px;}
+.userlist a{ font-weight:bold; color: #666;}
+.userlist a:hover{ text-decoration: underline;}
+.breakpage{ margin-top: 5px; text-align: center;}
+.breakpage a{ width:20px; height: 30px; line-height:30px; text-align: center; color: #fff; padding:2px 5px;}
+.breakpage span{ width:20px; height: 30px; line-height:30px; text-align: center; background:#f48f67; color: #fff; padding:2px 5px;}
+.typeTop{ width: 100%; height: 30px; line-height:30px; background: #f17008;  margin:0 auto; margin-top:10px;}
+.typeTop a{ color: #fff; cursor: pointer;}
+.typeTopLeft{ width: 30%; height: auto; float:left; color:#922216;}
+.typeTopLeft span{ padding-left: 15px; font-weight: bold; margin-right:5px;}
+.typeTopeRight{ width:70%; height: auto; float: right; text-align: right; }
+.typeTopeRight a{ margin-left:10px; margin-right: 10px; font-weight: bold;}
+#typeson{ background: gainsboro; margin-top: 0; border-bottom:1px solid #ccc;}
+#typeson a{ color: #5b5e5e;}
+#typeson span{ margin-left: 20px;}
+#articleoth td{ border-bottom: 1px solid #ccc; padding:10px 0; line-height: 20px;}
+.userlist td{ border-bottom: 1px solid #ccc; line-height: 35px;}
+.preNext{ line-height:22px;}
+.preNext a{ color:#63534d;}
+
+.breakpage ul li{ height: 30px; float: left; line-height: 30px;}
+.breakpage a{ display:inline; text-decoration: none; font-size: 6px; background:none; padding: 0 5px; font-size:14px; color: #666;}
+.selected{ color: #000; font-weight: bold;}
+

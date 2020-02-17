@@ -1,0 +1,102 @@
+
+function autoScroll(obj){
+	$(obj).find("ul").animate({
+		marginTop : "-39px"
+	},500,function(){
+		$(this).css({marginTop : "0px"}).find("li:first").fadeIn(800);
+	})
+}
+$(function(){
+	setInterval('autoScroll(".topCen_lf")',3000);
+	$('.othallRw_pro > li:last').css("margin-right","none");
+	$('.sjx').hover(function(){
+		$(this).children().show();
+	},function(){
+		$(this).children().hide();
+	})
+	$('.t_user').hover(function(){
+		$('.t_user_down').show();
+	},function(){
+		$('.t_user_down').hide();
+	});
+	
+	$('.frw1').mouseleave(function(){
+		$('.bei1').hide();
+	})
+	$(".frw1").mouseover(function(){
+        $(".bei1").show();
+    });
+	$(".frw2").mouseover(function(){
+        $(".bei2").show();
+    });
+    $(".frw2").mouseleave(function(){
+        $(".bei2").hide();
+    });
+    $(".jrw1").mouseover(function(){
+        $(".bei7").show();
+    });
+    $(".jrw1").mouseleave(function(){
+        $(".bei7").hide();
+    });
+    $(".jrw2").mouseover(function(){
+        $(".bei8").show();
+    });
+    $(".jrw2").mouseleave(function(){
+        $(".bei8").hide();
+    });
+    $(".frw3").mouseover(function(){
+        $(".bei3").show();
+    });
+    $(".frw3").mouseleave(function(){
+        $(".bei3").hide();
+    });
+    $(".frw4").mouseover(function(){
+        $(".bei4").show();
+    });
+    $(".frw4").mouseleave(function(){
+        $(".bei4").hide();
+    });
+     $(".frw5").mouseover(function(){
+        $(".bei5").show();
+    });
+    $(".frw5").mouseleave(function(){
+        $(".bei5").hide();
+    });
+     $(".frw6").mouseover(function(){
+        $(".bei6").show();
+    });
+    $(".frw6").mouseleave(function(){
+        $(".bei6").hide();
+    });
+    $(".jrw3").mouseover(function(){
+        $(".bei9").show();
+    });
+    $(".jrw3").mouseleave(function(){
+        $(".bei9").hide();
+    });
+    $(".jrw4").mouseover(function(){
+        $(".bei10").show();
+    });
+    $(".jrw4").mouseleave(function(){
+        $(".bei10").hide();
+    });
+    $(".jrw5").mouseover(function(){
+        $(".bei11").show();
+    });
+    $(".jrw5").mouseleave(function(){
+        $(".bei11").hide();
+    });
+    $(".jrw6").mouseover(function(){
+        $(".bei12").show();
+    });
+    $(".jrw6").mouseleave(function(){
+        $(".bei12").hide();
+    });
+    
+    //经过任务列表触发阴影效果
+    $("li.taskItem").hover(function(){
+        $(this).addClass("dtrwLisOn");
+    },function(){
+        $(this).removeClass("dtrwLisOn");
+    });
+})

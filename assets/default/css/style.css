@@ -1,0 +1,7 @@
+*{ margin:0; padding:0;}
+body{ font-size:12px; backgroun:gray;}
+li{ list-style:none;}
+a{ text-decoration: none;}
+img{ border:none;}
+
+.warning{ font-size:18px; font-weight:bold; margin-bottom:15px;}

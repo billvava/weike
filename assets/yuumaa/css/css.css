@@ -1,0 +1,36 @@
+/* CSS Document */
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{font:12px "微软雅黑","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%; background:url(../images/newsbg.jpg) no-repeat center -20px;}
+a{color:#172c45;text-decoration:none}
+a:hover{color:#cd0200;text-decoration:underline}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+.clear{ clear:both;}
+
+
+.loginMain{ width:900px; height:auto; margin:0 auto; text-align:center;}
+.logo{ margin-top:100px;}
+.FunArea ul li{ width:222px; height:43px; float:left; margin-left:60px; margin-top:30px;}
+.FunCon{ width:100%; height:auto; margin-top:10px; display:none;}
+.arrow{ width:900px; height:auto; margin:0 auto;}
+.arrow img{ margin-left:150px;}
+.FunConOth img{ margin-left:432px;}
+.funconInsideOth{ background:url(../images/person.jpg) no-repeat 600px 40px;}
+.funconInsideSign{ background:url(../images/login.jpg) no-repeat 500px 60px;}
+.funcontent{ width:100%; height:400px; background:#fff; padding:20px 0; color:#666;filter:alpha(opacity=90); /*IE滤镜，透明度50%*/
+-moz-opacity:0.9; /*Firefox私有，透明度50%*/
+opacity:0.9;/*其他，透明度50%*/}
+.funconInside{ width:900px; height:auto; margin:0 auto;}
+.funconInside p span{ padding-left:120px;}
+.funLeft{ font-size:14px;}
+.funLeft input{ width:292px; height:36px; line-height:36px; padding-left:10px; font-size:14px; color:#666;}
+
+
+.foot{ width:100%; position:fixed; bottom:20px;}
+.foot p{ height:25px; line-height:25px; text-align:center; color:#fff;}
+.foot p a{ color:#fff;}
+
+

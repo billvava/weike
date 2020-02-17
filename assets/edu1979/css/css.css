@@ -1,0 +1,113 @@
+/* CSS Document */
+
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{font:12px "微软雅黑","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%}
+a{color:#172c45;text-decoration:none}
+a:hover{color:#cd0200;}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+.clear{ clear:both;}
+.ad{ margin-top:10px;}
+
+.head{ width:100%; height:55px; background:#333333; position:fixed; top:0;}
+.headInside{ width:1220px; height:55px; line-height:55px; margin:0 auto;}
+.logo{ width:132px; height:auto; float:left;}
+.logo img{ margin-top:15px;}
+.menu{ width:1060px; height:auto; float:left;}
+.menu ul li{ width:auto; height:55px; float:left; text-align:center; font-size:16px; margin-left:20px; position:relative;}
+.menu ul a{ color:#ddd; display:block; padding:0 6px;}
+.menu ul a:hover{ background:#05a; color:#fff;}
+.liSelect{ background:#05a; color:#fff;}
+.mySon{ width:900px; height:55px; line-height:55px;  position:absolute; top:55px; z-index:10000; display:none;}
+.menu ul li p a{ color:#fff; display:inline; float:left; padding-right:30px;}
+.menu ul li p a:hover{ background:none; text-decoration:underline;}
+.loginArea{ width:100px; height:auto; float:right; text-align:right; color:#fff; display:none;}
+.loginArea a{ color:#ddd; margin-left:20px;}
+
+
+.subMenuBg{ width:100%; height:55px; background:#194876; position:relative; top:55px; z-index:-1; display:none;}
+.content{ width:1220px; height:auto; margin:0 auto; margin-top:65px;}
+.topLever{ width:100%; height:auto; margin-top:10px;}
+.banner{ width:900px; height:300px; float:left;}
+.handbook{ width:300px; height:auto; float:right;}
+.handbookTitle{ width:100%; height:35px; line-height:35px; background:#f7f7f7; font-size:18px; font-weight:bold;}
+.handbookTitle span{ padding-left:10px;}
+.headbookList ul{ padding-top:5px;}
+.headbookList ul li{ width:150px; height:26px; line-height:25px; float:left;}
+.headbookList ul li a{ padding-left:5px;}
+.headbookList ul li a:hover{ text-decoration:underline;}
+
+
+.works{ width:100%; height:190px; border-top:2px solid #e9e9e9; margin-top:10px;}
+.works ul li{ width:300px; height:auto; float:left; margin-top:15px;}
+.workLeft{ width:100px; height:auto; float:left;}
+.workInfo{ width:190px; height:auto; line-height:25px; float:right;}
+.cash{ color:red; font-size:14px;}
+.company{ font-size:14px;}
+
+
+.articleArea{ width:100%; height:auto; margin-top:10px;}
+.articleList{ width:630px; height:auto; border-top:2px solid #00aafd; float:left;}
+.articleList ul li{ width:100%; line-height:22px; background:url(../images/bottomline.png) repeat-x left bottom; padding-bottom:15px; margin-top:10px; color:#ccc;}
+.articleList ul li img{ width: 630px;}
+.articleList a{ color:#333333; line-height:35px;}
+.articleList a:hover{ text-decoration:underline;}
+a.typename{ color:#0051a1;}
+.arcInfo{ color:#666;}
+
+.articleRecommand{ width:250px; height:auto; border-top:2px solid #00aafd; float:left; display:inline; margin-left:20px; background:#f5f5f5;}
+.articleRecommand ul li{ width:200px; height:auto; margin:0 auto; margin-top:10px; border-bottom:1px solid #ddd; padding-bottom:18px; margin-top:20px;}
+.effectTitle{ line-height:25px;}
+.effectInfos{ color:#666;}
+.effectTitle a:hover{ text-decoration:underline;}
+
+.dayOrOth{ width:300px; height:auto; border-top:2px solid #00aafd; float:right;}
+.share{ margin-top:10px; margin-bottom:15px;}
+.showList{ width:100%; height:auto;}
+.showList ul{ padding-top:10px; padding-bottom:20px;}
+.showList ul li{ width:100%; height:30px; line-height:30px; overflow:hidden; font-size:14px; margin-top:3px;}
+.showList ul li span{ background:#2d58b9; color:#fff; padding:2px 8px; margin-right:10px;}
+.showList ul li a:hover{ text-decoration:underline;}
+
+.proList ul li{ width:100%; font-size:14px; height:48px; line-height:24px; border-bottom:1px solid #00aafd; padding-bottom:10px; margin-top:10px;}
+.proList ul li img{ margin-right:15px;}
+.othTitle{ margin-top:10px;}
+
+.bookList{ width:100%; height:auto;}
+.bookList ul li{ width:100%; height:142px; margin-top:30px;}
+.bookLeft{ width:107px; height:auto; float:left;}
+.bookRight{ width:180px; height:auto; float:right;}
+.bookRight a:hover{ text-decoration:underline;}
+.bookInfo{ line-height:22px; margin-top:10px; color:#666;}
+
+.foot{ width:100%; height:240px; background:#333333; margin-top:10px;}
+.footInside{ width:1220px; height:auto; margin:0 auto;}
+
+.footItem{ font-size:14px; width:200px; color:#fff; position:relative; top:40px; float:left;}
+.footItemTitle{ color:#fff; font-size:16px; line-height:60px;}
+.footItem p a{ color:#999999; line-height:25px;}
+
+.footCopyRight{ width:400px; color:#999; line-height:22px; float:right; position:relative; top:40px;}
+.footCopyRight p{ text-align:rihgt; line-height:30px; color:#fff;}
+
+.articleListOth{ width:900px; border:none;}
+.position{ width:100%; height:40px; line-height:40px; border-top:2px solid #00aafd; border-bottom:2px solid #00aafd; color:#9fa0a0;}
+.position span{ color:#0055aa;}
+
+.arcBody{ width:100%; height:auto;}
+.arcTitle{ width:100%; height:35px; line-height:35px; text-align:center; margin-top:15px;}
+.arcFun{ width:100%; text-align:center; margin-top:15px;}
+.arcFun span{ padding-left:280px;}
+
+
+.arcContainer{ width:100%; height:auto; line-height:25px; color:#000; font-size:15px; margin-top:15px;}
+
+.prenext{ font-size: 14px; margin-top:20px;}
+.prenext a{ color: green; font-weight: bold;}
+
+
+ul.yiiPager a:link, ul.yiiPager a:visited{ padding:8px 12px; border:none; background:#ccc; color:green; font-weight:normal;}
+ul.yiiPager .selected a{ padding:8px 12px; background:#6bc30d; color:#fff;}
